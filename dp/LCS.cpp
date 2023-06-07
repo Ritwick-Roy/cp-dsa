@@ -11,7 +11,7 @@ int func(vector<vector<int> >& dp,string& a,string& b,int i,int j)
   return dp[i][j]=1+func(dp,a,b,i-1,j-1);
   return dp[i][j]=max(func(dp,a,b,i-1,j),func(dp,a,b,i,j-1));
 }
-int longestCommonSubsequence(string a, string b)
+int lcs(string a, string b)
 {
   int i,j,m=a.size(),n=b.size();
   vector<vector<int> > dp(m+1,vector<int>(n+1,0));
