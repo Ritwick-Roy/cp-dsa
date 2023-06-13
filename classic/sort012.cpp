@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long
 #define pb push_back
 
-void sortColors(vector<ll>& a)
+void sort012(vector<ll>& a)
 {
   ll lo=0,hi=a.size()-1,m=0;
   while(m<=hi)
