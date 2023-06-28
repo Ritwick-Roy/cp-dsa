@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 // first and lost position of an element in sorted array
 vector<int> searchRange(vector<int>& a, int target)
 {
